@@ -34,7 +34,7 @@ class monoeciConfig():
         creds = {key: value for (key, value) in match}
 
         # standard monoeci defaults...
-        default_port = 24156 if (network == 'mainnet') else 19998
+        default_port = 6889 if (network == 'mainnet') else 16889
 
         # use default port for network if not specified in monoeci.conf
         if not ('port' in creds):
